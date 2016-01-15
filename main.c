@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
-#include<unistd.h>
+#include<unistd.h>   //用它的延时函数usleep()
 #include<time.h>
-#include<windows.h>
 #define H 26           //H为奇数,棋盘大小
 #define up 'w'
 #define down 's'
