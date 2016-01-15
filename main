@@ -9,7 +9,7 @@
 #define down 's'
 #define left 'a'
 #define right 'd'
-#define ok 'j'
+#define ok 'j'		//落子是j
 #define clrscr() system("cls") 
 int x,y,nextx,nexty,wint,turn,now,you,maxm=0,maxy=0,maxmcoordx=0,maxmcoordy=0,maxycoordx=0,maxycoordy=0,map[H][H]; 
 void redraw()
